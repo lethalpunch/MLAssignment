@@ -93,7 +93,7 @@ for t=1:m
    delta2 = delta2(2:end);
    
    Theta1_grad = Theta1_grad + (delta2 * a1');
-   Theta1_grad = Theta1_grad + (delta2 * a1');
+   Theta2_grad = Theta2_grad + (delta3 * a2');
 end
 
 Theta1_grad = (1/m) * Theta1_grad;
